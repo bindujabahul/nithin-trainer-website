@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Certified Personal Trainer in Thrissur with 9+ years experience. Offering weight loss, muscle gain, online and on-site fitness training. Contact now!">
+    <title>Personal Trainer in Thrissur | Nithin Achuthan Fitness Coach</title>
+    <link rel="stylesheet" href="Demo.css">
+</head>
+<script>
+
+function toggleMenu() {
+  document.querySelector(".nav-links").classList.toggle("active");
+}
+
+let index = 0;
+
+function moveSlide(step) {
+  const slides = document.getElementById("slides");
+  const totalSlides = slides.children.length;
+
+  index += step;
+
+  if (index >= totalSlides) index = 0;
+  if (index < 0) index = totalSlides - 1;
+
+  slides.style.transform = `translateX(-${index * 100}%)`;
+}
+</script>
+<body>
+ <nav class="navbar">
+  <div class="logo">NITHIN</div>
+
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#client transformations">Transformations</a></li>
+    <li><a href="#client reviews">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- HEADER -->
+<header class="hero">
+  <div class="hero-content">
+   <h1>Transform Your Body with Best Personal Trainer in Thrissur</h1>
+   <h2>Nithin Achuthan</h2>
+   <p class="location">📍 On-site & Online Training in Thrissur</p>
+    <a href="https://wa.me/918113800813?text=Hi%20I%20want%20to%20join%20your%20training" 
+   class="btn" target="_blank">
+   Book Now
+    </a>
+  </div>
+  <div class="hero-right">
+    <h2>Transform your body and mind for lasting success</h2>
+  </div>
+   
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+   I am a <b>certified personal trainer in Thrissur</b> with over 9 years of experience helping individuals transform their health, fitness, and lifestyle. My approach is focused on creating personalized programs that are practical, result-oriented, and sustainable for long-term success.
+
+   I specialize in a wide range of fitness services including <b>Personal Training, Weight Management, Athletic Coaching, Medical Exercise Specialist programs, Diet Consultation, Injury Prevention, and Corrective Exercise.</b> Whether your goal is fat loss, muscle gain, improving athletic performance, or recovering safely from injuries, I design training plans tailored specifically to your needs.
+
+   Over the years, I have worked with clients of different fitness levels—from beginners to advanced athletes—guiding them with proper technique, structured workouts, and continuous motivation. My focus is not just on workouts, but on building discipline, confidence, and a healthier lifestyle.
+
+   I offer both online coaching and onsite training, ensuring flexibility and convenience while maintaining professional guidance and support throughout your fitness journey.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2 class="section-title">My Services</h2>
+
+  <div class="services-container">
+
+    <div class="service-card">
+      <h3>🏋️ Personal Training</h3>
+      <p>One-on-one customized training sessions focused on your goals.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>⚖️ Weight Management</h3>
+      <p>Fat loss and muscle gain programs designed for real results.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🏃 Athletic Coach</h3>
+      <p>Performance training for strength, endurance, and agility.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🩺 Medical Exercise</h3>
+      <p>Safe workouts for clients with medical conditions.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🥗 Diet Consultation</h3>
+      <p>Nutrition plans that support your fitness journey.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>🦵 Injury & Corrective</h3>
+      <p>Improve posture, prevent injuries, and recover safely.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Online / On -Site Training</h3>
+      <p>I provide both online and on-site training, with flexible scheduling designed to fit seamlessly into your lifestyle.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>My Certifications</h2>
+
+  <div class="slider">
+    <div class="slides" id="slides">
+
+      <div class="slide">
+        <img src="cert1.jpeg" alt="Certificate 1">
+        
+      </div>
+
+      <div class="slide">
+        <img src="cert2.jpeg" alt="Certificate 2">
+        
+      </div>
+
+      <div class="slide">
+        <img src="cert3.jpeg" alt="Certificate 3">
+        
+      </div>
+
+      <div class="slide">
+        <img src="cert4.jpeg" alt="Certificate 4">
+  
+      </div>
+
+     
+
+    </div>
+
+    <!-- Buttons -->
+    <button class="prev" onclick="moveSlide(-1)">❮</button>
+    <button class="next" onclick="moveSlide(1)">❯</button>
+  </div>
+</section>
+
+
+<!-- GALLERY -->
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-container">
+    <img src="img1.jpeg" alt="Personal trainer in Thrissur workout session">
+    <img src="img2.jpeg" alt="Fitness training in Thrissur">
+    
+  </div>
+</section>
+
+<section id="transformations">
+  <h2>Client Transformations</h2>
+
+  <div class="transformation-container">
+
+    <div class="transform-item">
+      <img src="trans1.jpeg" alt="Transformation 1">
+      <p>Eight Week Transformation</p>
+    </div>
+
+    <div class="transform-item">
+      <img src="trans2.jpeg" alt="Client transformation by personal trainer in Thrissur">
+      <p>Muscle Gain Transformation</p>
+    </div>
+
+    <div class="transform-item">
+      <img src="trans3.jpeg" alt="Transformation 3">
+      <p>Fat Loss Transformation</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>Client Reviews</h2>
+
+  <div class="testimonial-container">
+
+    <div class="testimonial-box">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>
+        I lost 8kg in just 2 months. Nithin is truly the best personal trainer. Highly recommended!
+      </p>
+      <span>Sathish Nadambaram</span>
+      <div class="client-info">Weight Loss Client</div>
+    </div>
+
+    <div class="testimonial-box">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>
+        Very professional and motivating coach. The training plan was perfectly customized for me. He was so flexible with my schedule and helping me actually stay consistent. I wouldn't have stuck with it without Nithin's push.
+      </p>
+      <span>Monica Yadav</span>
+      <div class="client-info">Fitness Transformation</div>
+    </div>
+
+    <div class="testimonial-box">
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>
+        Helped me recover from injury safely and improve my strength. Best decision I made. After my accident I was not confident enough to bounce back to my normal mobility but Nithin's motivation and professional training helped me back to full recovery.
+      </p>
+      <span>Divyasree Dwivedi</span>
+      <div class="client-info">Rehabilitation Client</div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <div class="contact-box">
+    <p>📞 Phone: 8113800813</p>
+    <p>📧 Email: nithinachuthan93@gmail.com</p>
+
+    <a href="https://wa.me/918113800813" target="_blank">
+      Message on WhatsApp
+    </a>
+  </div>
+  <iframe 
+  src="https://www.google.com/maps?q=Thrissur&output=embed"
+  width="100%" 
+  height="250" 
+  style="border:0; border-radius:10px;">
+  </iframe>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 NITHIN | Personal Trainer in Thrissur</p>
+</footer>
+
+</body>
+</html>
